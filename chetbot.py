@@ -47,7 +47,7 @@ class chatbot:
 
     def ent_func(self,event):
         self.btn_send.invoke()
-        self.entry.set("")
+        self.ent.set("")
 
     def clear(self):
         self.text.delete('1.0',END)
